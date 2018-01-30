@@ -242,7 +242,7 @@ c = get_config()
 # c.TerminalInteractiveShell.screen_length = 0
 
 # Set the editor used by IPython (default to $EDITOR/vi/notepad).
-# c.TerminalInteractiveShell.editor = u'/opt/bb/bin/vim'
+c.TerminalInteractiveShell.editor = u'/opt/bb/bin/vim'
 
 # Deprecated, use PromptManager.justify
 # c.TerminalInteractiveShell.prompts_pad_left = True
@@ -293,7 +293,7 @@ c = get_config()
 # c.TerminalInteractiveShell.multiline_history = True
 
 # 
-# c.TerminalInteractiveShell.readline_use = True
+# c.TerminalInteractiveShell.readline_use = False
 
 # Enable deep (recursive) reloading by default. IPython can use the deep_reload
 # module which reloads changes in modules recursively (it replaces the reload()
@@ -301,7 +301,7 @@ c = get_config()
 # forces a full reload of modules whose code may have changed, which the default
 # reload() function does not.  When deep_reload is off, IPython will use the
 # normal reload(), but deep_reload will still be available as dreload().
-# c.TerminalInteractiveShell.deep_reload = False
+c.TerminalInteractiveShell.deep_reload = False
 
 # Start logging to the given file in append mode. Use `logfile` to specify a log
 # file to **overwrite** logs to.
