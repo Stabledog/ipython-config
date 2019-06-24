@@ -29,7 +29,7 @@
 #c.InteractiveShellApp.exec_files = []
 
 # lines of code to run at IPython startup.
-#c.InteractiveShellApp.exec_lines = []
+c.InteractiveShellApp.exec_lines = ['%alias lr ls -lirt']
 
 # A list of dotted module names of IPython extensions to load.
 #c.InteractiveShellApp.extensions = []
