@@ -31,6 +31,7 @@
 # lines of code to run at IPython startup.
 c.InteractiveShellApp.exec_lines = ['%alias lr ls -lirt']
 
+
 # A list of dotted module names of IPython extensions to load.
 #c.InteractiveShellApp.extensions = []
 
@@ -609,3 +610,7 @@ c.TerminalInteractiveShell.prompt_includes_vi_mode = True
 # If True, any %store-d variables will be automatically restored when IPython
 #  starts.
 #c.StoreMagics.autorestore = False
+
+## -->  Use jk to switch from insert to normal mode in ipython console:
+## (Swiped from https://github.com/Carreau/ipython/blob/e08dc1b4dd30e8d2b607134693f226e8a22100ec/docs/source/config/details.rst#keyboard-shortcuts )
+
